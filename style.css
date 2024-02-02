@@ -52,3 +52,15 @@
         display: flex;
     }
 }
+
+.hero-section-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-section-container h1{
+    color: white;
+}
