@@ -59,8 +59,92 @@
     justify-content: center;
     align-items: center;
     gap: 20px;
+    height: 320px;
 }
 
 .hero-section-container h1{
     color: white;
+    text-align: center;
+    font-size: 30px;
+    font-weight: 350;
+}
+
+.hero-section-logo{
+    height: 50px;
+    width: 200px;
+}
+
+.hero-section-input-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    width: 50%;
+    border-radius: 10px;
+    background-color: white;
+    padding: 13px;
+
+}
+
+.hero-section-input{
+    padding: 5px;
+    border: none;
+    outline: none;
+}
+
+#dish-search{
+    width: 70%;
+    border-left: 2px rgb(184, 184, 184) solid;
+}
+
+#location-search{
+    width: 30%;
+}
+
+.container{
+    margin: 3rem auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.we-offer{
+    display: flex;
+    flex-wrap: wrap;
+    gap: .5rem;
+    justify-self: center;
+    align-items: center;
+}
+
+.we-offer-card{
+    border-radius: 10px;
+    overflow: hidden;
+    border: solid 1px #e0e0e0;
+    transition: all 1s ease-in-out;
+    margin-right: 12px;
+}
+
+.we-offer-card:hover{
+    transform: scale(1.1);
+}
+
+.we-offer-card img{
+    width: 100%;
+    height: 170px;
+    object-fit: cover;
+    object-position: center;
+}
+
+.we-offer-content{
+    padding: 10px;
+}
+
+.we-offer-content h2{
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.we-offer-content p{
+    font-size: 12.5px;
+    font-weight: 400;
 }
