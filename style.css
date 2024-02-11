@@ -116,6 +116,8 @@
     gap: .5rem;
     justify-self: center;
     align-items: center;
+    overflow-y:hidden;
+    height: 20rem;
 }
 
 .we-offer-card{
@@ -124,11 +126,14 @@
     border: solid 1px #e0e0e0;
     transition: all 1s ease-in-out;
     margin-right: 12px;
+    overflow-y: hidden;
+
 }
 
 .we-offer-card:hover{
     transform: scale(1.1);
     cursor: pointer;
+    overflow-y: hidden;
 }
 
 .we-offer-card img{
